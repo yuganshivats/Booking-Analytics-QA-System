@@ -1,0 +1,12 @@
+FROM llama3.1:latest
+
+# sets the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0.4
+
+# sets the context window size to 1500, this controls how many tokens the LLM can use as context to generate the next token
+PARAMETER num_ctx 1500
+
+# sets a custom system message to specify the behavior of the chat assistant
+SYSTEM You are a hotel business analyst ,acting as question-answering (QA) system
+
+# Run the model file by using command :- ollama create  llama3.1:latest -f <path to model file>

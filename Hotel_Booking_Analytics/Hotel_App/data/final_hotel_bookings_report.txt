@@ -1,0 +1,383 @@
+Hotel Bookings Report
+
+content='**Hotel Bookings Report**\n\n**Introduction**\n\nThis report provides an overview of hotel bookings from July 2015 to August 2017. The report includes information on total bookings, non-canceled bookings, cancellation rate, monthly revenues, country distribution, lead time distribution, average adults per booking, stay percentage, customer distribution, hotel revenue, hotel cancellations, meal distribution, average ADR, and booking changes distribution.\n\n**Total Bookings**\n\n* Total Bookings: 119,390\n* Non-Canceled Bookings: 75,166\n\n**Cancellation Rate**\n\n* Overall Cancellation Rate: 37.04%\n\n**Monthly Revenues**\n\n| Year-Month | Total Revenue |\n| --- | --- |\n| 2015-07 | 758,339.79 |\n| 2015-08 | 1,137,652.71 |\n| 2015-09 | 1,054,620.67 |\n| 2015-10 | 784,714.88 |\n| 2015-11 | 346,709.49 |\n| 2015-12 | 429,521.57 |\n| 2016-01 | 264,521.38 |\n| 2016-02 | 484,170.72 |\n| 2016-03 | 767,337.42 |\n| 2016-04 | 896,591.38 |\n| 2016-05 | 1,073,277.63 |\n| 2016-06 | 1,144,800.38 |\n| 2016-07 | 1,525,019.05 |\n| 2016-08 | 1,809,324.75 |\n| 2016-09 | 1,289,642.69 |\n| 2016-10 | 1,072,101.84 |\n| 2016-11 | 688,843.47 |\n| 2016-12 | 657,870.72 |\n| 2017-01 | 512,155.46 |\n| 2017-02 | 663,370.76 |\n| 2017-03 | 884,761.17 |\n| 2017-04 | 1,203,266.10 |\n| 2017-05 | 1,321,936.01 |\n| 2017-06 | 1,438,490.54 |\n| 2017-07 | 1,817,038.23 |\n| 2017-08 | 1,970,181.60 |\n\n**Country Distribution**\n\n| Country | Booking Percentage |\n| --- | --- |\n| PRT | 40.70% |\n| GBR | 10.16% |\n| FRA | 8.72% |\n| ESP | 7.18% |\n| DEU | 6.10% |\n| ITA | 3.15% |\n| IRL | 2.83% |\n| BEL | 1.96% |\n| BRA | 1.86% |\n| NLD | 1.76% |\n\n**Lead Time Distribution**\n\n* Count: 119,390\n* Mean: 104.01\n* Standard Deviation: 106.86\n* Minimum: 0\n* 25th Percentile: 18\n* 50th Percentile: 69\n* 75th Percentile: 160\n* Maximum: 737\n\n**Average Adults per Booking**\n\n* Average Adults per Booking (all): 1.86\n* Average Adults per Booking (non-canceled): 1.83\n\n**Stay Percentage**\n\n* Total Weekend Nights: 69,827\n* Total Weekday Nights: 69,827\n* Total Nights: 139,654\n* Weekend Percentage: 50.00%\n* Weekday Percentage: 50.00%\n\n**Customer Distribution**\n\n| Customer Type | Booking Percentage |\n| --- | --- |\n| Transient | 75.06% |\n| Transient-Party | 21.04% |\n| Contract | 3.41% |\n| Group | 0.48% |\n\n**Hotel Revenue**\n\n| Hotel | Total Revenue |\n| --- | --- |\n| City Hotel | 14,394,410.18 |\n| Resort Hotel | 11,601,850.23 |\n\n**Hotel Cancellations**\n\n| Hotel | Cancellation Rate |\n| --- | --- |\n| City Hotel | 41.73% |\n| Resort Hotel | 27.67% |\n\n**Meal Distribution**\n\n| Meal Type | Booking Percentage |\n| --- | --- |\n| BB | 77.32% |\n| HB | 12.11% |\n| SC | 8.92% |\n| Undefined | 0.98% |\n| FB | 0.67% |\n\n**Average ADR**\n\n* Average ADR: 99.99\n\n**Booking Changes Distribution**\n\n* Count: 119,390\n* Mean: 0.22\n* Standard Deviation: 0.65\n* Minimum: 0\n* 25th Percentile: 0\n* 50th Percentile: 0\n* 75th Percentile: 0\n* Maximum: 21\n\n**Date Range**\n\n* Start: 2015-07-01\n* End: 2017-08-31' additional_kwargs={} response_metadata={'token_usage': {'completion_tokens': 1115, 'prompt_tokens': 4911, 'total_tokens': 6026, 'completion_time': 1.486666667, 'prompt_time': 0.131201516, 'queue_time': 0.101675395, 'total_time': 1.6178681830000001}, 'model_name': 'llama-3.1-8b-instant', 'system_fingerprint': 'fp_a4265e44d5', 'finish_reason': 'stop', 'logprobs': None} id='run-e98ef7b0-b597-40bb-9d82-2eb7090cb6ec-0' usage_metadata={'input_tokens': 4911, 'output_tokens': 1115, 'total_tokens': 6026}
+
+{
+    "avg_cancel_rate": 37.041628277075134,
+    "country_cancellation_count": {
+        "PRT": 40.69855096741771,
+        "GBR": 10.159142306725856,
+        "FRA": 8.723511181841024,
+        "ESP": 7.176480442248094,
+        "DEU": 6.10352625848061,
+        "ITA": 3.154368037524081,
+        "IRL": 2.826869922104029,
+        "BEL": 1.9616383281681884,
+        "BRA": 1.8628025797805512,
+        "NLD": 1.7622916492168523,
+        "USA": 1.7564285116006366,
+        "CHE": 1.4490325822933243,
+        "CN": 1.071279001591423,
+        "AUT": 1.05787754418293,
+        "SWE": 0.857693274143563,
+        "CHN": 0.8367534969427924,
+        "POL": 0.7697462099003267,
+        "ISR": 0.5603484378926208,
+        "RUS": 0.5293575676354804,
+        "NOR": 0.5084177904347098,
+        "ROU": 0.41879554401541164,
+        "Unknown": 0.40874445095904177,
+        "FIN": 0.374403216349778,
+        "DNK": 0.36435212329340816,
+        "AUS": 0.35681380350113073,
+        "AGO": 0.30320797386715803,
+        "LUX": 0.24038864226484633,
+        "MAR": 0.21693609179998324,
+        "TUR": 0.20772258983164418,
+        "HUN": 0.19264595024708936,
+        "ARG": 0.1792444928385962,
+        "JPN": 0.1650054443420722,
+        "CZE": 0.1432280760532708,
+        "IND": 0.12731384538068516,
+        "KOR": 0.1113996147080995,
+        "GRC": 0.10721165926794538,
+        "DZA": 0.0862718820671748,
+        "SRB": 0.08459669989111317,
+        "HRV": 0.08375910880308234,
+        "MEX": 0.07119524248261999,
+        "EST": 0.06952006030655833,
+        "IRN": 0.06952006030655833,
+        "LTU": 0.0678448781304967,
+        "ZAF": 0.06700728704246586,
+        "BGR": 0.06281933160231175,
+        "NZL": 0.06198174051428093,
+        "COL": 0.05946896725018846,
+        "UKR": 0.05695619398609599,
+        "MOZ": 0.05611860289806516,
+        "CHL": 0.05444342072200352,
+        "SVK": 0.05444342072200352,
+        "THA": 0.04941787419381857,
+        "SVN": 0.04774269201775693,
+        "ISL": 0.04774269201775693,
+        "LVA": 0.04606750984169528,
+        "ARE": 0.04271714548957199,
+        "CYP": 0.04271714548957199,
+        "TWN": 0.04271714548957199,
+        "SAU": 0.04020437222547952,
+        "PHL": 0.03350364352123293,
+        "TUN": 0.03266605243320211,
+        "SGP": 0.03266605243320211,
+        "IDN": 0.029315688081078817,
+        "NGA": 0.028478096993047996,
+        "EGY": 0.026802914816986344,
+        "URY": 0.026802914816986344,
+        "LBN": 0.025965323728955523,
+        "PER": 0.024290141552893878,
+        "HKG": 0.024290141552893878,
+        "MYS": 0.023452550464863053,
+        "ECU": 0.02261495937683223,
+        "VEN": 0.021777368288801408,
+        "BLR": 0.021777368288801408,
+        "CPV": 0.02010218611273976,
+        "GEO": 0.01842700393667811,
+        "JOR": 0.01758941284864729,
+        "KAZ": 0.015914230672585645,
+        "CRI": 0.015914230672585645,
+        "GIB": 0.015076639584554819,
+        "MLT": 0.015076639584554819,
+        "OMN": 0.015076639584554819,
+        "AZE": 0.014239048496523998,
+        "KWT": 0.013401457408493172,
+        "MAC": 0.013401457408493172,
+        "QAT": 0.012563866320462351,
+        "IRQ": 0.011726275232431527,
+        "DOM": 0.011726275232431527,
+        "PAK": 0.011726275232431527,
+        "BIH": 0.010888684144400704,
+        "MDV": 0.01005109305636988,
+        "BGD": 0.01005109305636988,
+        "ALB": 0.01005109305636988,
+        "PRI": 0.01005109305636988,
+        "SEN": 0.009213501968339055,
+        "CMR": 0.008375910880308233,
+        "MKD": 0.008375910880308233,
+        "BOL": 0.008375910880308233,
+        "PAN": 0.007538319792277409,
+        "GNB": 0.007538319792277409,
+        "TJK": 0.007538319792277409,
+        "VNM": 0.006700728704246586,
+        "CUB": 0.006700728704246586,
+        "ARM": 0.006700728704246586,
+        "JEY": 0.006700728704246586,
+        "LBY": 0.006700728704246586,
+        "AND": 0.005863137616215763,
+        "MUS": 0.005863137616215763,
+        "LKA": 0.005863137616215763,
+        "CIV": 0.00502554652818494,
+        "JAM": 0.00502554652818494,
+        "KEN": 0.00502554652818494,
+        "FRO": 0.004187955440154116,
+        "MNE": 0.004187955440154116,
+        "TZA": 0.004187955440154116,
+        "BHR": 0.004187955440154116,
+        "CAF": 0.004187955440154116,
+        "SUR": 0.004187955440154116,
+        "PRY": 0.003350364352123293,
+        "BRB": 0.003350364352123293,
+        "GTM": 0.003350364352123293,
+        "UZB": 0.003350364352123293,
+        "MCO": 0.003350364352123293,
+        "GAB": 0.003350364352123293,
+        "GHA": 0.003350364352123293,
+        "ZWE": 0.003350364352123293,
+        "ETH": 0.00251277326409247,
+        "TMP": 0.00251277326409247,
+        "LIE": 0.00251277326409247,
+        "GGY": 0.00251277326409247,
+        "SYR": 0.00251277326409247,
+        "BEN": 0.00251277326409247,
+        "GLP": 0.0016751821760616465,
+        "SLV": 0.0016751821760616465,
+        "ATA": 0.0016751821760616465,
+        "MYT": 0.0016751821760616465,
+        "ABW": 0.0016751821760616465,
+        "KHM": 0.0016751821760616465,
+        "LAO": 0.0016751821760616465,
+        "STP": 0.0016751821760616465,
+        "ZMB": 0.0016751821760616465,
+        "MWI": 0.0016751821760616465,
+        "IMN": 0.0016751821760616465,
+        "COM": 0.0016751821760616465,
+        "TGO": 0.0016751821760616465,
+        "UGA": 0.0016751821760616465,
+        "KNA": 0.0016751821760616465,
+        "RWA": 0.0016751821760616465,
+        "SYC": 0.0016751821760616465,
+        "KIR": 0.0008375910880308232,
+        "SDN": 0.0008375910880308232,
+        "NCL": 0.0008375910880308232,
+        "AIA": 0.0008375910880308232,
+        "ASM": 0.0008375910880308232,
+        "FJI": 0.0008375910880308232,
+        "ATF": 0.0008375910880308232,
+        "LCA": 0.0008375910880308232,
+        "GUY": 0.0008375910880308232,
+        "PYF": 0.0008375910880308232,
+        "DMA": 0.0008375910880308232,
+        "SLE": 0.0008375910880308232,
+        "MRT": 0.0008375910880308232,
+        "NIC": 0.0008375910880308232,
+        "BDI": 0.0008375910880308232,
+        "PLW": 0.0008375910880308232,
+        "MLI": 0.0008375910880308232,
+        "CYM": 0.0008375910880308232,
+        "BFA": 0.0008375910880308232,
+        "MDG": 0.0008375910880308232,
+        "MMR": 0.0008375910880308232,
+        "NPL": 0.0008375910880308232,
+        "BHS": 0.0008375910880308232,
+        "UMI": 0.0008375910880308232,
+        "SMR": 0.0008375910880308232,
+        "DJI": 0.0008375910880308232,
+        "BWA": 0.0008375910880308232,
+        "HND": 0.0008375910880308232,
+        "VGB": 0.0008375910880308232,
+        "NAM": 0.0008375910880308232
+    },
+    "total_bookings_text": "Total Bookings: 119390\nNon-Canceled Bookings: 75166",
+    "cancellation_rate_text": "Overall Cancellation Rate: 37.04%",
+    "monthly_revenue_text": "Monthly revenues:\n2015-07: 758339.79\n2015-08: 1137652.71\n2015-09: 1054620.67\n2015-10: 784714.88\n2015-11: 346709.49\n2015-12: 429521.57\n2016-01: 264521.38\n2016-02: 484170.72\n2016-03: 767337.42\n2016-04: 896591.38\n2016-05: 1073277.63\n2016-06: 1144800.38\n2016-07: 1525019.05\n2016-08: 1809324.75\n2016-09: 1289642.69\n2016-10: 1072101.84\n2016-11: 688843.47\n2016-12: 657870.72\n2017-01: 512155.46\n2017-02: 663370.76\n2017-03: 884761.17\n2017-04: 1203266.10\n2017-05: 1321936.01\n2017-06: 1438490.54\n2017-07: 1817038.23\n2017-08: 1970181.60",
+    "country_distribution_text": "Top 10 Countries by Booking Percentage:\nPRT: 40.70%\nGBR: 10.16%\nFRA: 8.72%\nESP: 7.18%\nDEU: 6.10%\nITA: 3.15%\nIRL: 2.83%\nBEL: 1.96%\nBRA: 1.86%\nNLD: 1.76%",
+    "lead_time_dist_text": "Lead Time Distribution:\ncount: 119390.0\nmean: 104.01141636652986\nstd: 106.86309704798794\nmin: 0.0\n25%: 18.0\n50%: 69.0\n75%: 160.0\nmax: 737.0",
+    "avg_adults_text": "Average Adults per Booking (all): 1.86\nAverage Adults per Booking (non-canceled): 1.83",
+    "stay_percentage_text": "Total Weekend Nights: 69827\nTotal Weekday Nights: 69827\nTotal Nights: 139654\nWeekend Percentage: 50.00%\nWeekday Percentage: 50.00%",
+    "customer_distribution_text": "Customer type distribution:\nTransient: 75.06%\nTransient-Party: 21.04%\nContract: 3.41%\nGroup: 0.48%",
+    "total_bookings": 119390,
+    "non_canceled_bookings": 75166,
+    "cancellation_rate": 37.041628277075134,
+    "monthly_revenues": [
+        {
+            "year-month": "2015-07",
+            "total_revenue": 758339.79
+        },
+        {
+            "year-month": "2015-08",
+            "total_revenue": 1137652.71
+        },
+        {
+            "year-month": "2015-09",
+            "total_revenue": 1054620.67
+        },
+        {
+            "year-month": "2015-10",
+            "total_revenue": 784714.88
+        },
+        {
+            "year-month": "2015-11",
+            "total_revenue": 346709.49
+        },
+        {
+            "year-month": "2015-12",
+            "total_revenue": 429521.57
+        },
+        {
+            "year-month": "2016-01",
+            "total_revenue": 264521.38
+        },
+        {
+            "year-month": "2016-02",
+            "total_revenue": 484170.72
+        },
+        {
+            "year-month": "2016-03",
+            "total_revenue": 767337.42
+        },
+        {
+            "year-month": "2016-04",
+            "total_revenue": 896591.38
+        },
+        {
+            "year-month": "2016-05",
+            "total_revenue": 1073277.63
+        },
+        {
+            "year-month": "2016-06",
+            "total_revenue": 1144800.38
+        },
+        {
+            "year-month": "2016-07",
+            "total_revenue": 1525019.05
+        },
+        {
+            "year-month": "2016-08",
+            "total_revenue": 1809324.75
+        },
+        {
+            "year-month": "2016-09",
+            "total_revenue": 1289642.69
+        },
+        {
+            "year-month": "2016-10",
+            "total_revenue": 1072101.84
+        },
+        {
+            "year-month": "2016-11",
+            "total_revenue": 688843.47
+        },
+        {
+            "year-month": "2016-12",
+            "total_revenue": 657870.72
+        },
+        {
+            "year-month": "2017-01",
+            "total_revenue": 512155.46
+        },
+        {
+            "year-month": "2017-02",
+            "total_revenue": 663370.76
+        },
+        {
+            "year-month": "2017-03",
+            "total_revenue": 884761.17
+        },
+        {
+            "year-month": "2017-04",
+            "total_revenue": 1203266.1
+        },
+        {
+            "year-month": "2017-05",
+            "total_revenue": 1321936.01
+        },
+        {
+            "year-month": "2017-06",
+            "total_revenue": 1438490.54
+        },
+        {
+            "year-month": "2017-07",
+            "total_revenue": 1817038.23
+        },
+        {
+            "year-month": "2017-08",
+            "total_revenue": 1970181.6
+        }
+    ],
+    "top_countries": {
+        "PRT": 40.69855096741771,
+        "GBR": 10.159142306725856,
+        "FRA": 8.723511181841024,
+        "ESP": 7.176480442248094,
+        "DEU": 6.10352625848061,
+        "ITA": 3.154368037524081,
+        "IRL": 2.826869922104029,
+        "BEL": 1.9616383281681884,
+        "BRA": 1.8628025797805512,
+        "NLD": 1.7622916492168523
+    },
+    "lead_time_distribution": {
+        "count": 119390.0,
+        "mean": 104.01141636652986,
+        "std": 106.86309704798794,
+        "min": 0.0,
+        "25%": 18.0,
+        "50%": 69.0,
+        "75%": 160.0,
+        "max": 737.0
+    },
+    "avg_adults_all": 1.8564033838679956,
+    "avg_adults_non_canceled": 1.8297368491073092,
+    "stay_percentage": {
+        "total_weekend_nights": "69827",
+        "total_weekday_nights": "69827",
+        "total_nights": "139654",
+        "weekend_percentage": 50.0,
+        "weekday_percentage": 50.0
+    },
+    "customer_distribution": {
+        "Transient": 75.05905017170618,
+        "Transient-Party": 21.043638495686405,
+        "Contract": 3.4140212748136363,
+        "Group": 0.48329005779378503
+    },
+    "hotel_revenue": [
+        {
+            "hotel": "City Hotel",
+            "total_revenue": 14394410.18
+        },
+        {
+            "hotel": "Resort Hotel",
+            "total_revenue": 11601850.23
+        }
+    ],
+    "hotel_cancellations": [
+        {
+            "hotel": "City Hotel",
+            "is_canceled": 0.41726963317786464
+        },
+        {
+            "hotel": "Resort Hotel",
+            "is_canceled": 0.27763354967548676
+        }
+    ],
+    "meal_distribution": {
+        "BB": 77.3180333361253,
+        "HB": 12.114079906189797,
+        "SC": 8.920345087528268,
+        "Undefined": 0.9791439819080325,
+        "FB": 0.668397688248597
+    },
+    "avg_adr": 99.98769297288668,
+    "booking_changes_distribution": {
+        "count": 119390.0,
+        "mean": 0.22112404724013737,
+        "std": 0.6523055726747721,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 21.0
+    },
+    "date_range": {
+        "start": "2015-07-01",
+        "end": "2017-08-31"
+    }
+}

@@ -1,0 +1,16 @@
+pandas
+numpy
+torch
+transformers
+sentence-transformers
+langchain_chroma 
+langchain_ollama 
+langchain_core
+langchain_groq
+langchain_community
+flask
+uvicorn
+requests
+load_dotenv
+langchain_ollama
+
