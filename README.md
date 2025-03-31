@@ -25,7 +25,7 @@ A system that processes hotel booking data, extracts insights, and enables retri
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yuganshivats/Hotel_Booking_Analytics.git
+   git clone https://github.com/yuganshivats/Booking-Analytics-QA-System
    cd Hotel_Booking_Analytics
    ```
 2. **Create and Activate a Virtual Environment:**
